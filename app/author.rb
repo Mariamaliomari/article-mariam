@@ -29,7 +29,7 @@ class Author
   end
 
   def topic_areas
-    #returns a unique array of strings with the categories of the magazines the author has contributed to
+    # array of strings with the categories of the magazines the author contributed to
     self.magazines.map do |magazine|
       magazine.category
     end
